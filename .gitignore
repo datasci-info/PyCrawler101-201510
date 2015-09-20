@@ -1,3 +1,9 @@
 .ipynb_checkpoints/
 *.pyc
 *.html
+.project
+.pydevproject
+build/
+dist/
+pycrawler101.egg-info/
+
