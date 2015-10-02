@@ -13,7 +13,7 @@ import pandas as pd
 import numpy as np
 
 
-def yahooStockMajor(stock_id):
+def getData(stock_id):
     url = "https://tw.stock.yahoo.com/d/s/major_{stock_id}.html".format(stock_id=stock_id)
     res = requests.get(url)
     res.raise_for_status()
